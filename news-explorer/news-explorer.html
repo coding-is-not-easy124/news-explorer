@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Headline Hub</title>
+  <link rel="stylesheet" href="news-explorer.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div id="search-section">
+      <img src="search.png" alt="Search Icon" />
+      <input type="text" id="search-input" placeholder="Search..." />
+    </div>
+
+    <div id="headline-info">
+      <h2>Latest Headlines</h2>
+      <div id="filter-tabs">
+        <div class="tab">All</div>
+        <div class="tab">Business</div>
+        <div class="tab">Politics</div>
+        <div class="tab">Sport</div>
+        <div class="tab">Entertainment</div>
+      </div>
+    </div>
+
+    <div id="articles-section"></div>
+
+    <button id="loadMoreBtn">Show More</button>
+  </div>
+
+  <script src="news-explorer.js"></script>
+</body>
+</html>
